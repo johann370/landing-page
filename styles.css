@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex: auto;
+}
+
+.header {
+    padding: 0px 150px;
+    display: flex;
+    flex: auto;
+    gap: 25px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#logo {
+    display: flex;
+    flex: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-self: flex-start;
+}

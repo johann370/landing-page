@@ -36,7 +36,7 @@ div {
 
 .main-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
     margin: 0px;
     width: 525px;
@@ -79,4 +79,41 @@ button {
     text-align: center;
     color: white;
     font-size: 25px;
+}
+
+.information-header {
+    flex: auto;
+    font-size: 36px; 
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #36C0A9;
+    border-radius: 200px;
+}
+
+.dog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px 50px;
+}
+
+.dog-pictures {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.dog-1,
+.dog-2,
+.dog-3,
+.dog-4 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }

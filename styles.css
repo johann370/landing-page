@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     width: 70%;
     margin: auto;
 }
@@ -169,4 +168,11 @@ img {
 
 .call-to-action {
     font-weight: bold;
+}
+
+.copyright-section {
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 10px;
+    color: #F9FAF8;
 }

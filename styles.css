@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    width: 70%;
+    margin: auto;
 }
 
 div {
@@ -137,4 +139,34 @@ img {
     position: relative;
     left: 250px;
     bottom: 65px;
+}
+
+.button-section {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    margin: 100px 300px;
+    padding: 50px;
+    border-radius: 15px;
+    gap: 250px;
+}
+
+.button-section-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.bottom-button {
+    border: 2px solid white;
+    align-self: center;
+}
+
+.sign-up-text,
+.call-to-action {
+    margin: 2px;
+}
+
+.call-to-action {
+    font-weight: bold;
 }
